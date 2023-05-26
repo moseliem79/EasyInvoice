@@ -1,5 +1,5 @@
 
-# Invoice
+# Easy Invoice
 Invoice Web Application Using Bootstrap AdminLTE Template
 
 # Functional Features
