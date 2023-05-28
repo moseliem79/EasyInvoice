@@ -15,7 +15,7 @@
     decimal totalcust = custopen + custpaid;
     decimal totalvend = vendopen + vendpaid;
 
-    
+
     int perccust = (totalcust != 0) ? Convert.ToInt32(decimal.Divide(custpaid, totalcust) * 100) : 0;
     int percvend = (totalvend != 0) ? Convert.ToInt32(decimal.Divide(vendpaid, totalvend) * 100) : 0;
 
@@ -62,7 +62,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Inovice Easy
+            Easy Inovice Developed by Group 130
             <small>Version 1.0</small>
         </h1>
         <ol class="breadcrumb"></ol>
@@ -200,7 +200,6 @@
     <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-
 @section Styles{
 
     <!-- Bootstrap 3.3.7 -->
@@ -247,7 +246,6 @@
     <!-- ChartJS -->
     <script src="~/adminlte/components/chart.js/Chart.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    
     <!-- AdminLTE for demo purposes -->
     <script src="~/adminlte/dist/js/demo.js"></script>
 
@@ -260,7 +258,7 @@
             var jvalpaid = @Html.Raw(Json.Serialize(valpaid));
             var jvalopen = @Html.Raw(Json.Serialize(valopen));
             var jlabels = @Html.Raw(Json.Serialize(labels));
-            
+
 
             // Get context with jQuery - using jQuery's .get() method.
             var salesChartCanvas = $('#salesChart').get(0).getContext('2d');
