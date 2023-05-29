@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Demo\" />
+    <Folder Include="Documentation\" />
     <Folder Include="Models\Demo\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
