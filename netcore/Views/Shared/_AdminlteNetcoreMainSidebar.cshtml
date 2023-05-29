@@ -22,7 +22,7 @@
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu" data-widget="tree">
 
-            @{ 
+            @{
                 <li class="header">MODULE</li>
                 Type pages = typeof(netcore.MVC.Pages);
                 Type tRole = Model.GetType();
@@ -50,15 +50,23 @@
 
                 }
             }
-
-
-
-            <li class="header">ADMINLTE</li>
-            <li class="@Html.IsSelected(controller: "Adminlte", action: "Dashboardv1")">
-                <a href="@lte.MVC.Pages.Dashbaordv1.Url" target="_blank">
-                    <i class="fa fa-circle-o"></i> <span>Demo</span>
-                </a>
-            </li>
+            @* <li class="@Html.IsSelected(controller: "Adminlte", action: "Dashboardv1")">
+            <a href="@lte.MVC.Pages.Dashbaordv1.Url" target="_blank">*@
+            @*                    <i class="fa fa-circle-o"></i> <span>Demo</span>
+            *@
+            <center class="table">
+            <li class="list-group-item"><b>Group 130</b></li>
+            <li class="list-group-item">Ahmed Gamal Sallam  </li>
+            <li class="list-group-item">202201314</li>
+            <li class="list-group-item">Kahlawy Saber Fathy </li>
+            <li class="list-group-item">202201347</li>
+            <li class="list-group-item">Waled Ibrahim Mohey Eldin </li>
+            <li class="list-group-item">202202040</li>
+            <li class="list-group-item">Ahmed Gomaa Shazly</li>
+            <li class="list-group-item">202201069</li>
+            <li class="list-group-item">Mohamed Mohamed Selim</li>
+            <li class="list-group-item">202201271</li>
+            </center>
         </ul>
     </section>
     <!-- /.sidebar -->
