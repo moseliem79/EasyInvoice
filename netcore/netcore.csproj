@@ -23,7 +23,6 @@
 		<Folder Include="Controllers\Demo\" />
 		<Folder Include="Documentation\" />
 		<Folder Include="Models\Demo\" />
-		<Folder Include="SE_SWPM_Group_130\" />
 		<Folder Include="wwwroot\uploads\" />
 	</ItemGroup>
 
