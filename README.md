@@ -1,5 +1,5 @@
 
-# Easy Invoice
+# Easy Invoice (Group 130)
 Invoice Web Application Using Bootstrap AdminLTE Template
 
 # Functional Features
